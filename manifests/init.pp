@@ -1,3 +1,3 @@
 class tomcat {
-  include tomcat::install, tomcat::config, tomcat::service
+  include tomcat::params, tomcat::install, tomcat::config, tomcat::service
 }
